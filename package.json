@@ -1,0 +1,30 @@
+{
+  "name": "implementation-bigchaindb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm start --prefix client",
+    "dev": "npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaimanza/implementation-bigchaindb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zaimanza/implementation-bigchaindb/issues"
+  },
+  "homepage": "https://github.com/zaimanza/implementation-bigchaindb#readme",
+  "dependencies": {
+    "bigchaindb-driver": "^4.3.0",
+    "bigchaindb-orm": "^3.0.3",
+    "bip39": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
